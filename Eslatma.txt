@@ -1,0 +1,86 @@
+Bu yerda postmandan yuborgan malumotlarim.
+
+user register qilishda 
+
+
+1). {
+    "username":"Zayniddin",
+    "email":"zayniddin@gmail.com",
+    "password":"hello122",
+    "role":"admin"
+}
+
+2). {
+    "username":"Tohirjon",
+    "email":"muqimovtohirjon@06gmail.com",
+    "password":"tohirjon06",
+    "role":"user"
+}
+
+Postlar qoshish (qoshimcha request qoshdim , postlar bilan ishlash uchun )
+
+[
+  {
+    "title": "Texnologiya haqida",
+    "content": "Texnologiya olamining zamonaviy yutuqlari haqida gaplashamiz. Hozirgi kunda texnologiya hayotimizning ajralmas qismiga aylanmoqda.",
+    "author": "67ab1210c94210667ebf63ea",
+    "category": "Texnologiya",
+    "views": 150
+  },
+  {
+    "title": "Mobil ilovalar",
+    "content": "Mobil ilovalar bugungi kunda odamlarning turmush tarzini sezilarli darajada o'zgartirdi.",
+    "author": "67ab1210c94210667ebf63ea",
+    "category": "Texnologiya",
+    "views": 200
+  },
+  {
+    "title": "Sun'iy intellekt",
+    "content": "Sun'iy intellekt texnologiyalarining rivojlanishi va kelajagi haqida.",
+    "author": "67ab1210c94210667ebf63ea",
+    "category": "Texnologiya",
+    "views": 80
+  },
+  {
+    "title": "Robototexnika",
+    "content": "Robototexnika sohasidagi yangi innovatsiyalar va ular bizning hayotimizga qanday ta'sir ko'rsatmoqda.",
+    "author": "67ab1210c94210667ebf63ea",
+    "category": "Texnologiya",
+    "views": 90
+  },
+  {
+    "title": "Sog'liqni saqlash",
+    "content": "Sog'liqni saqlash sohasidagi eng yangi yangiliklar va innovatsiyalar.",
+    "author": "67ab1210c94210667ebf63ea",
+    "category": "Sog'liqni saqlash",
+    "views": 120
+  },
+  {
+    "title": "Fitness va sport",
+    "content": "Sog'lom turmush tarzini saqlash uchun eng yaxshi fitness mashqlar va sport tavsiyalari.",
+    "author": "67ab1210c94210667ebf63ea",
+    "category": "Sog'liqni saqlash",
+    "views": 110
+  },
+  {
+    "title": "Oziqlanish va diyetalar",
+    "content": "Oziqlanish va diyetalar haqida eng yaxshi maslahatlar.",
+    "author": "67ab1210c94210667ebf63ea",
+    "category": "Sog'liqni saqlash",
+    "views": 95
+  },
+  {
+    "title": "Birinchi post: Ijtimoiy tarmoq rivoji",
+    "content": "Ijtimoiy tarmoq sohasidagi yangi o'zgarishlar va ularning ta'siri.",
+    "author": "67ab1210c94210667ebf63ea",
+    "category": "Ijtimoiy tarmoqlar",
+    "views": 130
+  },
+  {
+    "title": "Instagramning yangilanishlari",
+    "content": "Instagramning oxirgi yangilanishlari va ulardan qanday foydalanish mumkin.",
+    "author": "67ab1210c94210667ebf63ea",
+    "category": "Ijtimoiy tarmoqlar",
+    "views": 140
+  }
+]

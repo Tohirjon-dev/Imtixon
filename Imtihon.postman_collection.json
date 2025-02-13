@@ -1,0 +1,286 @@
+{
+	"info": {
+		"_postman_id": "5d9c00c9-f3db-4930-aff1-ab56d0a9ff30",
+		"name": "Imtihon",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40691173"
+	},
+	"item": [
+		{
+			"name": "register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"Tohirjon\",\r\n    \"email\":\"muqimovtohirjon@06gmail.com\",\r\n    \"password\":\"tohirjon06\",\r\n    \"role\":\"user\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/auth/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"auth",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"email\":\"tohirjon@gmail.com\",\r\n   \"password\":\"tohirjon06\" \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addPosts",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n  {\r\n    \"title\": \"Texnologiya haqida\",\r\n    \"content\": \"Texnologiya olamining zamonaviy yutuqlari haqida gaplashamiz. Hozirgi kunda texnologiya hayotimizning ajralmas qismiga aylanmoqda.\",\r\n    \"author\": \"67ab1210c94210667ebf63ea\",\r\n    \"category\": \"Texnologiya\",\r\n    \"views\": 150\r\n  },\r\n  {\r\n    \"title\": \"Mobil ilovalar\",\r\n    \"content\": \"Mobil ilovalar bugungi kunda odamlarning turmush tarzini sezilarli darajada o'zgartirdi.\",\r\n    \"author\": \"67ab1210c94210667ebf63ea\",\r\n    \"category\": \"Texnologiya\",\r\n    \"views\": 200\r\n  },\r\n  {\r\n    \"title\": \"Sun'iy intellekt\",\r\n    \"content\": \"Sun'iy intellekt texnologiyalarining rivojlanishi va kelajagi haqida.\",\r\n    \"author\": \"67ab1210c94210667ebf63ea\",\r\n    \"category\": \"Texnologiya\",\r\n    \"views\": 80\r\n  },\r\n  {\r\n    \"title\": \"Robototexnika\",\r\n    \"content\": \"Robototexnika sohasidagi yangi innovatsiyalar va ular bizning hayotimizga qanday ta'sir ko'rsatmoqda.\",\r\n    \"author\": \"67ab1210c94210667ebf63ea\",\r\n    \"category\": \"Texnologiya\",\r\n    \"views\": 90\r\n  },\r\n  {\r\n    \"title\": \"Sog'liqni saqlash\",\r\n    \"content\": \"Sog'liqni saqlash sohasidagi eng yangi yangiliklar va innovatsiyalar.\",\r\n    \"author\": \"67ab1210c94210667ebf63ea\",\r\n    \"category\": \"Sog'liqni saqlash\",\r\n    \"views\": 120\r\n  },\r\n  {\r\n    \"title\": \"Fitness va sport\",\r\n    \"content\": \"Sog'lom turmush tarzini saqlash uchun eng yaxshi fitness mashqlar va sport tavsiyalari.\",\r\n    \"author\": \"67ab1210c94210667ebf63ea\",\r\n    \"category\": \"Sog'liqni saqlash\",\r\n    \"views\": 110\r\n  },\r\n  {\r\n    \"title\": \"Oziqlanish va diyetalar\",\r\n    \"content\": \"Oziqlanish va diyetalar haqida eng yaxshi maslahatlar.\",\r\n    \"author\": \"67ab1210c94210667ebf63ea\",\r\n    \"category\": \"Sog'liqni saqlash\",\r\n    \"views\": 95\r\n  },\r\n  {\r\n    \"title\": \"Birinchi post: Ijtimoiy tarmoq rivoji\",\r\n    \"content\": \"Ijtimoiy tarmoq sohasidagi yangi o'zgarishlar va ularning ta'siri.\",\r\n    \"author\": \"67ab1210c94210667ebf63ea\",\r\n    \"category\": \"Ijtimoiy tarmoqlar\",\r\n    \"views\": 130\r\n  },\r\n  {\r\n    \"title\": \"Instagramning yangilanishlari\",\r\n    \"content\": \"Instagramning oxirgi yangilanishlari va ulardan qanday foydalanish mumkin.\",\r\n    \"author\": \"67ab1210c94210667ebf63ea\",\r\n    \"category\": \"Ijtimoiy tarmoqlar\",\r\n    \"views\": 140\r\n  }\r\n]\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/auth/posts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"auth",
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create_post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"Yangi Sport Yutuqlari\",\r\n  \"content\": \"Sport sohasida yangi rekordlar o'rnatildi. O'zbekistonlik sportchilar jahon miqyosida yuksak natijalar ko'rsatmoqda.\",\r\n  \"category\": \"Sport\",\r\n  \"author\": \"67ab1237c94210667ebf63ee\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/posts/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"posts",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getPostsByCategory",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/posts/category/Texnologiya",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"posts",
+						"category",
+						"Texnologiya"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_top_post",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/posts/top",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"posts",
+						"top"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update_post_by_id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\":\"Siyosat xaqida\",\r\n    \"content\":\"O'zbekiston respublikasi prezidenti Singapurda\",\r\n    \"category\":\"Siyosat\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/posts/67ab2b7d0848dba84ff074dc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"posts",
+						"67ab2b7d0848dba84ff074dc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_all_userposts",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2FkNzQ2MmU0NDM1NGQ0ZDkyODMzM2IiLCJlbWFpbCI6InRvaGlyam9uQGdtYWlsLmNvbSIsImlhdCI6MTczOTQyMDc3OSwiZXhwIjoxNzQwMDI1NTc5fQ.IW3LeKfADv-oYNtyiBDyBccZKWmT00nwrkNTNfEmc3Y",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/users/posts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"users",
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete_post_by_id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/posts/67ad74f0e44354d4d928333e",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"posts",
+						"67ad74f0e44354d4d928333e"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "search_posts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/posts/search?title=Mobil ilovalar&category=Texnologiya",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"posts",
+						"search"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "Mobil ilovalar"
+						},
+						{
+							"key": "category",
+							"value": "Texnologiya"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
